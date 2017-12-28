@@ -1,0 +1,42 @@
+body{
+  margin: 0px;
+}
+#conteiner{
+  border: lightgray .5px solid;
+  width: 1000px;
+
+}
+#title>p,footer{
+  background-color: #FFC107;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  border-top: gray .5px solid;
+  border-bottom: gray .5px solid;
+}
+footer{
+  clear: left;
+}
+article{
+  height: 450px;
+  float: left;
+  border: .5px solid lightgray;
+  width: 33.2%;
+}
+article>h3{
+  margin-top: 35px;
+  text-align: center;
+}
+article>p{
+  margin: 30px;
+}
+article>img{
+  margin: 10px auto;
+  display: block;
+  width: 250px;
+  height: 200px;
+  margin-top: 55px;
+}
+a{
+  color: purple;
+}
